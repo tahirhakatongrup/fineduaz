@@ -1,0 +1,271 @@
+🟩 Create a fully functional, responsive, secure financial-education web application called “FinEdu AZ”.
+Use HTML, CSS, JavaScript, Node.js (Express), JSON datastore.
+Generate complete working code for frontend + backend with NO missing files.
+All text must be 100% grammatically correct in Azerbaijani (default), English and Russian.
+
+🟦 0️⃣ LANDING PAGE — REQUIRED ADDITION
+
+When the website loads, show a beautiful, modern landing page BEFORE login.
+
+➤ Landing Page Must Contain:
+✔ Header:
+
+FinEdu logo (blue icon + text)
+
+Navigation: “Daxil ol”, “Qeydiyyat”
+
+Language switcher (AZ / EN / RU)
+
+Light/Dark mode toggle
+
+✔ Hero Section:
+
+Title: “FinEdu — Şəxsi maliyyəni ağıllı idarə et!”
+
+Subtitle: “Xərclərini izlə, büdcə planla, məqsədlərinə daha tez çat.”
+
+Buttons: “İndi başla”, “Daha çox öyrən”
+
+Background gradient + financial illustration
+
+1,000+ active users badge
+
+✔ No login required to see landing page
+
+User logs in only after clicking “Daxil ol”.
+
+🟦 1️⃣ USER AUTHENTICATION
+✔ SIGN UP FORM
+
+No Google OAuth, no email verification.
+User enters:
+
+Full name
+
+Age
+
+Region
+
+Gender (optional)
+
+Email
+
+Password
+
+Registration date auto-generated
+
+✔ LOGIN FORM
+
+Requires:
+
+Email
+
+Password
+
+Store all users in users.json.
+
+Redirect to dashboard after login.
+
+🟦 2️⃣ DATASET (REQUIRED)
+
+Load the provided finedu_data.json file (your dataset).
+
+Use it to compute:
+
+✔ Average expenses by region
+✔ Average expenses by age groups:
+
+14–18
+
+19–25
+
+26–35
+
+These MUST be used by the Finny AI Advisor.
+
+🟦 3️⃣ DASHBOARD DESIGN (USE EXACT STRUCTURE BELOW)
+
+Dashboard structure must exactly follow this layout:
+
+🔲 LEFT SIDEBAR
+
+Əsas səhifə
+
+Aylıq hesabat
+
+Məqsədlər
+
+Qənaət oyunu
+
+Maarifləndirmə
+
+Finny ai-məsləhətçi
+
+Parametrlər
+
+AZ | EN | RU
+
+🔳 TOP OVAL PANEL
+
+Three equal blocks:
+
+Bu ayın xərci
+
+Bu ayın qazancı
+
+Məqsədlərə nə qədər yaxın (%)
+
+🔳 CENTER BIG PANEL (Transactions Table)
+
+Columns:
+
+Date
+
+Category
+
+Amount
+
+Type (Income/Outcome)
+
+User can add / edit / delete transactions.
+Stored in transactions.json.
+
+🔳 RIGHT SMALL PANEL
+
+Card:
+“Aylıq hesabat hissəsinə giriş üçün”
+with a button.
+
+🔳 BOTTOM LEFT PANEL
+
+Show the user’s goals with progress bars.
+Store in goals.json.
+
+🔳 BOTTOM RIGHT PANEL
+
+Finny AI Advisor gives text advice such as:
+
+“Əyləncə xərcləri normadan +18 AZN çoxdur.”
+
+“Bu ay restoran xərcləri artıb, gələn ay limit qoyun.”
+AI must be local — NO OpenAI key required.
+
+🟦 4️⃣ MONTHLY REPORT PAGE
+
+Show:
+
+Total income
+
+Total spending
+
+Savings
+
+Comparison with region + age averages
+
+Finny recommendations
+
+Graphical or table — both acceptable.
+
+🟦 5️⃣ GOALS PAGE
+
+User can:
+
+Create goal
+
+Add money
+
+Edit goal
+
+See completion %
+
+🟦 6️⃣ SAVING RACE GAME (Friends)
+
+Users can:
+
+Add friend by email
+
+Accept/reject request
+
+View leaderboard (goal completion %)
+
+NO sensitive information shown.
+
+🟦 7️⃣ EDUCATION PAGE
+
+Three sections (expand/collapse):
+
+Kredit nədir?
+
+İpoteka necə işləyir?
+
+Dələduzlara qarşı müdafiə qaydaları
+
+🟦 8️⃣ PROFILE / SETTINGS
+
+Show:
+
+Full name
+
+Age
+
+Region
+
+Email
+
+Registration date
+
+Active language
+
+Allow editing profile fields.
+
+🟦 9️⃣ TRANSLATION SYSTEM
+
+Place translation files into:
+
+/lang/az.json  
+/lang/en.json  
+/lang/ru.json  
+
+
+Must switch instantly (no reload).
+
+🟦 🔟 LIGHT/DARK MODE
+
+Toggle in navbar
+
+Save to localStorage
+
+Apply across all pages
+
+🟦 1️⃣1️⃣ BACKEND (Node + Express)
+
+Create REST API routes:
+
+/api/users
+
+/api/transactions
+
+/api/goals
+
+/api/averages
+
+/api/finny
+
+Use JSON files as database.
+Full CRUD.
+Secure input validation.
+
+🟦 1️⃣2️⃣ DEPLOYMENT REQUIREMENTS
+
+Works on Replit
+
+Can be exported to GitHub
+
+Add keepAlive route for 72-hour uptime
+
+No API keys required
+
+END OF PROMPT
+
+Generate all code, all folders, all pages, all backend routes and assets.
+No explanations — only final code
