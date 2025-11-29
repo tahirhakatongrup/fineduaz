@@ -3,6 +3,7 @@ import { useLanguage } from "@/lib/language-context";
 import { useAuth } from "@/lib/auth-context";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { ThemeToggle } from "@/components/theme-toggle";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -81,7 +82,9 @@ export function Header() {
         </nav>
 
         {/* User Menu / Login */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1">
+          <ThemeToggle />
+          
           {user ? (
             <DropdownMenu>
               <DropdownMenuTrigger asChild>

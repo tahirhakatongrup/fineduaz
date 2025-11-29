@@ -16,5 +16,41 @@
     "type": "expense",
     "description": "",
     "id": "84d88361-cc20-49f1-9826-e83d2d03013a"
+  },
+  "917f9ba3-90d6-4b49-abe4-eaee2f19229c": {
+    "userId": "c0164552-fc05-4f0e-8bcd-e480aa66a3d5",
+    "date": "2025-11-29",
+    "category": "transport",
+    "amount": 123,
+    "type": "expense",
+    "description": "",
+    "id": "917f9ba3-90d6-4b49-abe4-eaee2f19229c"
+  },
+  "9e725ba2-2a91-4c52-8ca7-bde533ce881e": {
+    "userId": "c0164552-fc05-4f0e-8bcd-e480aa66a3d5",
+    "date": "2025-11-29",
+    "category": "food",
+    "amount": 234,
+    "type": "expense",
+    "description": "",
+    "id": "9e725ba2-2a91-4c52-8ca7-bde533ce881e"
+  },
+  "18bc3681-6f91-4411-afaa-354482650737": {
+    "userId": "c0164552-fc05-4f0e-8bcd-e480aa66a3d5",
+    "date": "2026-05-01",
+    "category": "salary",
+    "amount": 500,
+    "type": "income",
+    "description": "",
+    "id": "18bc3681-6f91-4411-afaa-354482650737"
+  },
+  "9b7748b5-dd9a-49fc-a1ad-72965f66f378": {
+    "userId": "c0164552-fc05-4f0e-8bcd-e480aa66a3d5",
+    "date": "2025-11-29",
+    "category": "freelance",
+    "amount": 2300,
+    "type": "income",
+    "description": "",
+    "id": "9b7748b5-dd9a-49fc-a1ad-72965f66f378"
   }
 }

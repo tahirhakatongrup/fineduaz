@@ -7,5 +7,14 @@
     "id": "05c5ef78-feba-4fcd-bb0a-b61874a84466",
     "currentAmount": 0,
     "createdDate": "2025-11-29T11:40:09.983Z"
+  },
+  "2cdf8da2-a879-4a2e-9cd0-b74664f20d84": {
+    "userId": "c0164552-fc05-4f0e-8bcd-e480aa66a3d5",
+    "name": "komputer alamq",
+    "targetAmount": 3400,
+    "deadline": "",
+    "id": "2cdf8da2-a879-4a2e-9cd0-b74664f20d84",
+    "currentAmount": 230,
+    "createdDate": "2025-11-29T12:19:16.807Z"
   }
 }
