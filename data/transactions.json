@@ -1,0 +1,20 @@
+{
+  "925c6fd6-2660-4379-9ab8-5155bd673f7f": {
+    "userId": "67cfbec0-0d55-4ffa-803d-42932711b9e5",
+    "date": "2025-11-29",
+    "category": "other_income",
+    "amount": 20,
+    "type": "income",
+    "description": "",
+    "id": "925c6fd6-2660-4379-9ab8-5155bd673f7f"
+  },
+  "84d88361-cc20-49f1-9826-e83d2d03013a": {
+    "userId": "67cfbec0-0d55-4ffa-803d-42932711b9e5",
+    "date": "2025-11-29",
+    "category": "shopping",
+    "amount": 56,
+    "type": "expense",
+    "description": "",
+    "id": "84d88361-cc20-49f1-9826-e83d2d03013a"
+  }
+}

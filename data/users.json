@@ -1,0 +1,42 @@
+{
+  "67cfbec0-0d55-4ffa-803d-42932711b9e5": {
+    "email": "user1764416326714@gmail.com",
+    "fullName": "said",
+    "age": 18,
+    "region": "Bakı",
+    "gender": "female",
+    "language": "az",
+    "id": "67cfbec0-0d55-4ffa-803d-42932711b9e5",
+    "registrationDate": "2025-11-29T11:39:00.336Z"
+  },
+  "5a0cf358-724a-406e-9358-b38cd186da7b": {
+    "email": "user1764416442795@gmail.com",
+    "fullName": "Demo User",
+    "age": 18,
+    "region": "Xankəndi",
+    "gender": "other",
+    "language": "az",
+    "id": "5a0cf358-724a-406e-9358-b38cd186da7b",
+    "registrationDate": "2025-11-29T11:40:59.210Z"
+  },
+  "86ad25c6-9045-4bda-8177-1c9f7c16ff11": {
+    "email": "user1764416515521@gmail.com",
+    "fullName": "said",
+    "age": 18,
+    "region": "Naxçıvan",
+    "gender": "other",
+    "language": "az",
+    "id": "86ad25c6-9045-4bda-8177-1c9f7c16ff11",
+    "registrationDate": "2025-11-29T11:42:06.625Z"
+  },
+  "b7adfdc7-2d09-486c-9629-4028a74df417": {
+    "email": "user1764416519651@gmail.com",
+    "fullName": "Test User WVIpiM",
+    "age": 22,
+    "region": "Bakı",
+    "gender": "male",
+    "language": "az",
+    "id": "b7adfdc7-2d09-486c-9629-4028a74df417",
+    "registrationDate": "2025-11-29T11:43:12.526Z"
+  }
+}

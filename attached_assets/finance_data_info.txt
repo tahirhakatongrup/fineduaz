@@ -1,0 +1,16 @@
+
+Təhlil üçün finance_data təqdim olunub.
+
+Sahələr:
+
+ID — unikal identifikator
+name — ad
+age — yaş
+city — yaşayış şəhəri
+family — 0 – valideynləri ilə yaşayır, 1 – tək yaşayır, 2 – evli, 3 – ailədə bir uşaq var, 4 – ailədə birdən çox uşaq var
+income — ay ərzində manatla gəlir
+outcome — ay ərzində manatla xərclər
+saving — ayda manatla kənara nə qədər pul qoymaq mümkün olur
+how_saving — cash – nağd, bank – kartda saxlayır, investing – investisiyalar
+loans — borclar və ya kreditlər var (bəli) və ya yoxdur (xeyr)
+planning — büdcəni planlaşdırımı. 0 – qətiyyən planlaşdırmır, 1 – bəzən planlaşdırır, 3 – nə vaxt və nəyə xərcləyəcəyini dəqiq bilir
