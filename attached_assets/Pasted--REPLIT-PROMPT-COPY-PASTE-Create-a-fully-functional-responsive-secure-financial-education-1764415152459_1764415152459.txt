@@ -1,0 +1,255 @@
+🟦 REPLIT PROMPT — COPY & PASTE
+
+**Create a fully functional, responsive, secure financial-education web application called “FinEdu AZ”.
+Use HTML, CSS, JavaScript and Node.js backend (Express) + JSON datastore.
+Generate complete working code (frontend + backend) with NO missing files.
+All text must be 100% grammatically correct in:
+
+Azerbaijani (default)
+
+English
+
+Russian**
+
+🟨 PROJECT REQUIREMENTS (Build EXACTLY as described)
+1️⃣ Authentication / Registration
+
+User must register via Gmail / Google OAuth
+
+At sign-up user enters:
+
+Full name
+
+Age
+
+Region (city)
+
+Gender (optional)
+
+Registration date must be saved.
+
+User data stored inside users.json
+
+2️⃣ Database
+Import the provided dataset inside finedu_data.json:
+
+Structure:
+
+ID, name, age, city, family, income, outcome, saving, how_saving, loans, planning
+
+
+Use dataset to:
+
+Calculate average monthly expenses for each region
+
+Calculate average expenses for 3 age groups:
+
+14–18
+
+19–25
+
+26–35
+
+Use these averages to give personal advice.
+
+3️⃣ Homepage (Dashboard) – EXACT UI REQUIREMENTS
+
+Design must look clean, modern, premium with:
+
+White + Blue + Light Violet color palette
+
+FinEdu logo at top-left
+
+Language switcher at bottom-left (AZ / EN / RU)
+
+Dashboard must show:
+
+✔ “Bu ayın gəliri”
+✔ “Bu ayın xərci”
+✔ “Saving (kənara qoyulan)”
+✔ Daily transaction table:
+
+Date
+
+Category
+
+Amount
+
+Income / Outcome type
+
+User can:
+
+Add new expense
+
+Add new income
+
+Edit or delete transaction
+
+4️⃣ Monthly Report Page
+
+When user clicks “Aylıq Hesabat”:
+
+Full monthly summary table opens
+
+Show:
+
+Total Income
+
+Total Outcome
+
+Savings
+
+Difference from regional + age average
+
+Example:
+
+“Bu ay Sumqayıt 19–25 yaş ortalamasından +45 AZN çox xərcləmisiniz.”
+
+Show advice from AI (Finny)
+
+5️⃣ Goals Page (Məqsədlər)
+
+User can:
+
+Create goal (e.g., “Telefon”, “Tətil”, “Kurs”)
+
+Add savings to goal
+
+See percentage completed
+
+Home screen must display mini-progress bar for each goal
+
+Goals stored in goals.json
+
+6️⃣ Saving Race Game (Dostlarla Qənaət Oyunu)
+Features:
+
+Add friend by Gmail
+
+Accept / Reject friend request
+
+Only show:
+
+Username
+
+Goal name
+
+Goal completion %
+
+NOTHING personal (security required!)
+
+A separate page must show leaderboard:
+
+Who saved more this month
+
+No sensitive data shown
+
+7️⃣ Finny – Built-in AI Advisor
+
+Must give advice based on:
+
+User’s monthly spending
+
+Region average
+
+Age group average
+
+Loan status
+
+Planning score
+
+Savings habit
+
+Examples Finny must generate:
+
+“Bu ay əyləncə kateqoriyasında 20 AZN artıq xərc etmisiniz. Növbəti ay üçün 10% azaltmağı tövsiyə edirəm.”
+
+“Sizin yaş qrupunuz üçün Bakı şəhərində orta xərc 222 AZN-dir. Siz bu ay 180 AZN xərc etmisiniz – əla nəticə!”
+
+8️⃣ Education Page (Maarifləndirmə)
+
+Page must contain 3 sections:
+
+✔ Kredit nədir?
+✔ İpoteka necə işləyir?
+✔ Dələduzlara qarşı müdafiə qaydaları
+
+(Expand/Collapse format)
+
+Text must be grammatically correct AZ/EN/RU.
+
+9️⃣ Profile / Parametrlər
+
+Show:
+
+Full Name
+
+Age
+
+Region
+
+Registration Date
+
+Gmail
+
+Active language
+
+Edit profile button
+
+🔟 Language System (3 languages, NO errors)
+
+Place translation files:
+
+/lang/az.json
+/lang/en.json
+/lang/ru.json
+
+
+Switch instantly without page reload.
+
+1️⃣1️⃣ Backend Requirements
+
+Node.js + Express
+
+Serve API routes:
+
+/api/transactions
+
+/api/goals
+
+/api/users
+
+/api/averages
+
+/api/finny
+
+Database stored as JSON files
+
+API must include full CRUD
+
+No SQL needed
+
+Perfect error handling
+
+No security vulnerabilities
+
+1️⃣2️⃣ Deployment Requirements
+
+Generate code suitable for:
+
+Replit (default)
+
+GitHub export
+
+Vercel hosting
+
+Backend must NOT shut down for 48–72 hours
+→ Use Replit “Always On”
+→ or add “keepAlive()” background ping route.
+
+🎖 END OF PROMPT
+
+Generate the complete project with all files, folders, components, backend, frontend and assets exactly as described.
+Do not skip anything.
+Produce clean, secure, production-ready code.
+Generate NO explanations — only the final working code.
